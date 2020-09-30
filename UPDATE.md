@@ -1,3 +1,5 @@
+# UPDATE
+
 git clone git@github.com:thatshumbug/humbug-casper.git
 cd humbug-casper
 git remote add upstream https://github.com/TryGhost/Casper.git
