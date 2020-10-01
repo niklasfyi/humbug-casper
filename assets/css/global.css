@@ -20,7 +20,7 @@
 
 @font-face {
     font-family:'Raleway';
-    src: url('https://resch.pw/assets/font/Raleway.ttf');
+    src: url('https://resch.pw/assets/fonts/Raleway.ttf') format('truetype');
 }
 
 /* Reset
