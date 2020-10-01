@@ -18,6 +18,11 @@
     --font-family-sans: 'Raleway', sans-serif;
 }
 
+@font-face {
+    font-family:'Raleway';
+    src: url('https://resch.pw/assets/font/Raleway.ttf');
+}
+
 /* Reset
 /* ---------------------------------------------------------- */
 
