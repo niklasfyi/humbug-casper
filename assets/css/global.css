@@ -16,7 +16,7 @@
     --brown: #a3821a;
     --darkmode: color-mod(var(--darkgrey) l(+2%));
     --font-family-sans: 'Raleway', sans-serif;
-    --font-family-mono: 'Roboto', monospace;
+    --font-family-mono: 'RobotoMono', monospace;
 }
 
 @font-face {
@@ -24,8 +24,8 @@
     src: url('https://resch.pw/assets/fonts/Raleway.ttf') format('truetype');
 }
 @font-face {
-    font-family:'Roboto';
-    src: url('https://resch.pw/assets/fonts/Roboto.ttf') format('truetype');
+    font-family:'RobotoMono';
+    src: url('https://resch.pw/assets/fonts/RobotoMono.ttf') format('truetype');
 }
 
 /* Reset
@@ -201,7 +201,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: var(--font-family-monospace);
+    font-family: var(--font-family-mono);
     font-size: 1em;
 }
 button,
