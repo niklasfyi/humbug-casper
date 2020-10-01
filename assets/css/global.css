@@ -16,11 +16,16 @@
     --brown: #a3821a;
     --darkmode: color-mod(var(--darkgrey) l(+2%));
     --font-family-sans: 'Raleway', sans-serif;
+    --font-family-mono: 'Roboto', monospace;
 }
 
 @font-face {
     font-family:'Raleway';
     src: url('https://resch.pw/assets/fonts/Raleway.ttf') format('truetype');
+}
+@font-face {
+    font-family:'Roboto';
+    src: url('https://resch.pw/assets/fonts/Roboto.ttf') format('truetype');
 }
 
 /* Reset
@@ -196,7 +201,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: var(--font-family-monospace);
     font-size: 1em;
 }
 button,
