@@ -14,7 +14,15 @@
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/prism-okaidia.min.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism-line-numbers.min.css"}}" />
     <script src="{{asset "js/prism.min.js"}}"></script>
+    <style>
+        pre[class*=language-] {
+            margin: 1.75em 0;
+            font-size: 1.4rem;
+            background: #111;
+        }
+    </style>
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
