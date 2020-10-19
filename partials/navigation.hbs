@@ -2,9 +2,9 @@
     <ul class="nav">
         {{#foreach navigation}}
             <li class="nav-{{slug}}">
-                <a href="{{url}}" class="social-link">
+                <a rel="me" href="{{url}}" class="social-link">
                     <svg width="16" height="16" role="img" aria-label="{{slug}} icon">
-                        <use xlink:href="#{{slug}}" rel="me"></use>
+                        <use xlink:href="#{{slug}}"></use>
                     </svg>
                 </a>
             </li>
