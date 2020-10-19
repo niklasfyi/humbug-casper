@@ -4,7 +4,7 @@
             <li class="nav-{{slug}}">
                 <a href="{{url}}" class="social-link">
                     <svg width="16" height="16" role="img" aria-label="{{slug}} icon">
-                        <use xlink:href="#{{slug}}"></use>
+                        <use xlink:href="#{{slug}}" rel="me"></use>
                     </svg>
                 </a>
             </li>
@@ -14,7 +14,7 @@
     <ul class="nav">
         {{#foreach navigation}}
             <li class="{{link_class for=(url) class=(concat "nav-" slug)}}">
-                <a href="{{url absolute="true"}}">{{label}}</a>
+                <a href="{{url absolute="true"}}" rel="me">{{label}}</a>
             </li>
         {{/foreach}}
     </ul>
